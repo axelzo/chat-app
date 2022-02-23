@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "roomId": 1,
+    "userId": 1,
+    "body": "Hello"
+  },
+  {
+    "id": 2,
+    "roomId": 1,
+    "userId": 2,
+    "body": "Hi"
+  },
+  {
+    "id": 3,
+    "roomId": 1,
+    "userId": 1,
+    "body": "I wrote Romeo & Juliet"
+  },
+  {
+    "id": 4,
+    "roomId": 1,
+    "userId": 2,
+    "body": "I wrote For Whom the Bell Tolls"
+  },
+  {
+    "id": 5,
+    "roomId": 2,
+    "userId": 1,
+    "body": "Let's not talk about our works here!"
+  },
+  {
+    "id": 6,
+    "roomId": 2,
+    "userId": 2,
+    "body": "OK"
+  }
+]

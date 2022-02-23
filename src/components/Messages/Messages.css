@@ -1,0 +1,57 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  flex: 0.75;
+  height: 100vh;
+  background-color: #2f3135;
+}
+
+.messages__header {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding: 6px;
+  background-color: #2f3135;
+  color: white;
+  /* border-bottom: 3px solid #26282c; */
+  /* border-left: 3px solid #26282c; */
+}
+
+.messages__headerHash {
+  color: gray;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.messages__messages {
+  flex: 1;
+  padding: 20px;
+}
+
+.messages__input {
+  color: lightgray;
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px;
+  border-top: 1px solid gray;
+  background-color: #474b53;
+}
+
+.messages__input > form {
+  display: flex;
+}
+
+.messages__input > form > input {
+  padding: 15px;
+  background: transparent;
+  border: none;
+  width: 100%;
+  outline-width: 0;
+  color: white;
+  font-size: large;
+}
+
+.messages__input > form > button {
+  display: none;
+}

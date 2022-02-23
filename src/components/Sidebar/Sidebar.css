@@ -1,0 +1,50 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  height: 100vh;
+  background-color: #2f3135;
+  border-right: 3px solid #26282c;
+}
+
+.sidebar__rooms {
+  flex: 1;
+  background-color: #2f3135;
+  border-bottom: 3px solid #26282c;
+}
+
+.sidebar__roomsHeader {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding: 10px;
+  background-color: #2f3135;
+  color: white;
+}
+
+.sidebar__roomsHeader > h3 {
+  margin: 0;
+}
+
+.sidebar__roomsList {
+  background-color: #2f3135;
+}
+
+.sidebar__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  background: #2f3135;
+  padding: 10px;
+}
+
+.sidebar__profileInfo {
+  flex: 1;
+  padding: 10px;
+  color: white;
+}
+
+.sidebar__profile > .MuiSvgIcon-root:hover {
+  cursor: pointer;
+}
